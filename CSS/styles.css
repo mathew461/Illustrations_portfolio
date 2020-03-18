@@ -22,20 +22,9 @@
 			display: inline;
 			margin-right: 20px;
 		  }
-		footer {
-			text-align: center;
-		  }
-		footer li {
-			display: inline;
-			font-weight: 300;
-			margin-right: 20px;
-			font-family: 'Roboto', sans-serif;
-		  }
-		footer {
-			background-color: hsl(180, 90%, 35%);
-			color: #FFFFFF;
-		  }
-		#container{
+		
+		/* Page Images??? */
+		  #container{
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
@@ -93,6 +82,21 @@
 			height: auto;
 			border-radius: 10px;	
 		}
+
+		/* Footer */
+		footer {
+			text-align: center;
+			background-color: hsl(180, 90%, 35%);
+			color: #FFFFFF;
+		  }
+		footer li {
+			display: inline;
+			font-weight: 300;
+			margin-right: 20px;
+			font-family: 'Roboto', sans-serif;
+		  }
+		
+		  /* Title Images */
 		#photographytitleimage{
 			display: flex;	
 			justify-content: center;
