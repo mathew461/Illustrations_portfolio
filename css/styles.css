@@ -1,11 +1,17 @@
 
-		/* wildcard style reset css */
 		*{
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
 		}
-		/* Page Layout */
+		H1, h2, h3{
+			font-family: 'Roboto', sans-serif;
+			font-size: 66px;
+			text-align: center;
+			color: rgb(255, 255, 255);
+			text-shadow: 3px 3px 10px #000;
+
+				}
 		ul{
 			list-style-type: none;
 			text-decoration: none;
@@ -17,7 +23,7 @@
 			margin-right: 20px;
 		  }
 		
-		/* Page Images */
+		/* Page Images??? */
 		  #container{
 			display: flex;
 			justify-content: space-between;
@@ -91,13 +97,6 @@
 		  }
 		
 		/* Title Images */
-		H1, h2, h3{
-			font-family: 'Roboto', sans-serif;
-			font-size: 66px;
-			text-align: center;
-			color: rgb(255, 255, 255);
-			text-shadow: 3px 3px 10px #000;
-		}
 		#photographytitleimage{
 			display: flex;	
 			justify-content: center;
