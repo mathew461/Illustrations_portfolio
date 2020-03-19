@@ -31,13 +31,13 @@
 		}
 		.tilecontainer{
 			flex-grow: 1;
-			width: 28%;
+			width: 28%; /* column gap*/
 			height: auto;
-			margin: 12px 0; /* Row Gap */
+			
+			margin: 12px 0; /* row Gap */
 			position: relative;
 			top: 0;
-			left: 0;
-			
+			left: 0;	
 		}
 		.overlay{
 			position: absolute;
@@ -96,7 +96,7 @@
 			font-family: 'Roboto', sans-serif;
 		  }
 		
-		  /* Title Images */
+		/* Title Images */
 		#photographytitleimage{
 			display: flex;	
 			justify-content: center;
