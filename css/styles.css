@@ -84,6 +84,11 @@
 		}
 
 		/* Footer */
+		li:hover {
+			text-shadow: 0 0 14px rgb(255, 255, 255);
+			font-weight: 500;
+		  }
+
 		footer {
 			text-align: center;
 			background-color: hsl(180, 90%, 35%);
@@ -94,6 +99,7 @@
 			font-weight: 300;
 			margin-right: 20px;
 			font-family: 'Roboto', sans-serif;
+			
 		  }
 		
 		/* Title Images */
