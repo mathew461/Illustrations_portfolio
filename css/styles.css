@@ -98,12 +98,11 @@ H1, h2, h3{
 	}
 	.tilecontainer{
 		flex-grow: 1;
-		width: 28%; /* column gap*/
-		height: auto;		
-		margin: 12px 0; /* row Gap */
+		width: 44%;
+		height: auto;
+		margin: 12px 12px 12px 12px;
 		position: relative;
 		top: 0;
-		left: 0;	
 	}
 	.overlay{
 		position: absolute;
@@ -134,14 +133,7 @@ H1, h2, h3{
 	.tilecontainer:hover .overlayText{
 		opacity: 1;
 	}
-	#container .tilecontainer:nth-child(2){
-		margin-left: 24px;
-		margin-right: 24px;
-	}
-	#container .tilecontainer:nth-child(5){
-		margin-left: 24px;
-		margin-right: 24px;
-	}
+
 	#container img{
 		display: block;
 		max-width: 100%;
