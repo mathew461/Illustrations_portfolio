@@ -143,7 +143,9 @@ H1, h2, h3{
 }
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1024px) {
-#container{
+
+
+	#container{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -240,3 +242,29 @@ footer li {
 	float: right;
 	text-align: right;
 }
+
+/* Social Media Buttons */ 
+
+
+#instagram, #facebook, #youtube {
+	background: url('../links-and-images/social_media.jpg') 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+#instagram {
+    width: 30px;
+    margin-right: 19px;
+    height: 35px;
+    mix-blend-mode: darken;
+    background-position: -57px 0px;
+}
+#facebook {
+	width: 30px;
+    margin-right: 0px;
+    height: 35px;
+    mix-blend-mode: darken;
+    background-position: -0px 0px;
+}
+}
+
