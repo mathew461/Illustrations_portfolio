@@ -256,8 +256,8 @@
 		width:100%;
 		bottom: 0%;
 		position: absolute; 
-		padding-left: 2%;
-		line-height: 30px;
+
+		line-height: 35px;
 	}
 	footer li {
 		display: inline;
@@ -274,17 +274,14 @@
 		float: right;
 		text-align: right;
 	}
-	
-
-
+}
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1024px) {
-
 	a {
 		text-decoration: none;
 		color: inherit;
 		display: inline;
-		margin-right: 20px;
+		margin-right: 0px;
 	}
 	li:hover {
 		text-shadow: 0 0 14px rgb(255, 255, 255);
@@ -298,8 +295,7 @@
 		width:100%;
 		bottom: 0%;
 		position: relative; 
-		padding-left: 2%;
-		line-height: 30px;
+		line-height: 35px;
 	}
 	footer li {
 		display: inline;
@@ -316,7 +312,7 @@
 		float: right;
 		text-align: right;
 	}
-	
+}	
 
 
 
