@@ -470,7 +470,7 @@
 		flex-grow: 1;
 		width: 40%;
 		height: auto;
-		margin: 6px 6px 6px 6px;
+		margin: 2px 6px 6px 6px;
 		position: relative;
 		top: 0px;
 	}
@@ -521,7 +521,7 @@
 		flex-grow: 0;
 		width: 46%;
 		height: auto;
-		margin: 12px 0px 8px 0px;
+		margin: 2px 0px 8px 0px;
 		position: relative;
 		top: 0px;
 	}
@@ -621,7 +621,7 @@
 		flex-grow: 0;
 		width: 47%;
 		height: auto;
-		margin: 12px 2px 6px 2px;
+		margin: 2px 2px 6px 2px;
 		position: relative;
 		top: 0px;
 	}
@@ -671,7 +671,7 @@
 		flex-grow: 0;
 		width: 46%;
 		height: auto;
-		margin: 12px 2px 8px 2px;
+		margin: 2px 2px 8px 2px;
 		position: relative;
 		top: 0px;
 	}
@@ -768,12 +768,12 @@
 		flex-wrap: wrap;
 	}
 	.tilecontainer{
-	flex-grow: 0;
-    width: 48%;
-    height: auto;
-    margin: 2px 1px 18px 1px;
-    position: relative;
-    top: 0px;
+		flex-grow: 0;
+		width: 48%;
+		height: auto;
+		margin: 2px 1px 18px 1px;
+		position: relative;
+		top: 0px;
 	}
 	.overlay{
 		position: absolute;
