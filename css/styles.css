@@ -52,27 +52,6 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 @media only screen and (max-width: 360px) {
 	a {
@@ -98,13 +77,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/* position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -113,15 +86,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -129,32 +151,31 @@ html {
 	}
 	#instagram:hover {
 		mix-blend-mode: exclusion;
-}
+	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
 @media only screen and (min-width: 375px) and (max-height: 667px){
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -166,13 +187,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/* position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -181,15 +196,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -197,32 +261,32 @@ html {
 	}
 	#instagram:hover {
 		mix-blend-mode: exclusion;
-}
+	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
+
 @media only screen and (min-width: 375px) and (min-height: 812px){
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -234,13 +298,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/* position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -249,15 +307,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -265,32 +372,32 @@ html {
 	}
 	#instagram:hover {
 		mix-blend-mode: exclusion;
-}
+	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
+
 @media only screen and (min-width: 411px) and (max-height: 731px) {
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -302,13 +409,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/* position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -317,15 +418,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -334,31 +484,31 @@ html {
 	#instagram:hover {
 		mix-blend-mode: exclusion;
 	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
+
 @media only screen and (min-width: 414px) and (max-height: 736px) {
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -370,13 +520,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/* position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -385,15 +529,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -402,31 +595,31 @@ html {
 	#instagram:hover {
 		mix-blend-mode: exclusion;
 	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
+
 @media only screen and (min-width: 411px) and (min-height: 823px) {
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -438,13 +631,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/* position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -453,15 +640,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -470,31 +706,32 @@ html {
 	#instagram:hover {
 		mix-blend-mode: exclusion;
 	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
+
 @media only screen and (min-width: 768px) {
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
+
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -506,13 +743,7 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
+	/*position classes */
 	.left {
 		float:left;
 		text-align: left;
@@ -521,15 +752,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -538,31 +818,30 @@ html {
 	#instagram:hover {
 		mix-blend-mode: exclusion;
 	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
 @media only screen and (min-width: 1024px) and (max-height: 1366) {
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 5px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -574,13 +853,6 @@ html {
 		line-height: 35px;
 		left: 0px;
 	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
-	}
 	.left {
 		float:left;
 		text-align: left;
@@ -589,15 +861,64 @@ html {
 		float: right;
 		text-align: right;
 	}
-	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	/* buttons */
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
 	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
+	}
 	#instagram {
 		width: 30px;
 		margin-right: 19px;
+        display: block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
@@ -605,33 +926,31 @@ html {
 	}
 	#instagram:hover {
 		mix-blend-mode: exclusion;
-}
+	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
 		background-position: -0px 0px;
-	}
+	}	
 	#facebook:hover {
 		mix-blend-mode: exclusion;
 	}
 }
 @media only screen and (min-width: 1024px) {
-	a {
-		text-decoration: none;
-		color: inherit;
-		display: inline;
-		margin-right: 0px;
-		font-size: 15px;
-	}
-	li:hover {
-		text-shadow: 0 0 14px rgb(255, 255, 255);
-		font-weight: 500;
-		font-style: inherit;
-		mix-blend-mode: exclusion;
-	}
 	footer {
 		text-align: center;
 		background-color: hsl(180, 90%, 35%);
@@ -641,14 +960,7 @@ html {
 		bottom: 0%;
 		position: fixed; 
 		line-height: 35px;
-		left: 0px;
-	}
-	footer li {
-		display: inline;
-		font-weight: 300;
-		margin-right: 20px;
-		font-family: 'Roboto', sans-serif;
-				
+		left: 0px;			
 	}
 	.left {
 		float:left;
@@ -659,10 +971,58 @@ html {
 		text-align: right;
 	}
 	/* Social Media Buttons */ 
-	#instagram, #facebook, #youtube {
+	#home, #games, #sketches, #photography, #instagram, #email, #facebook {
 		background: url('../links-and-images/social_media.jpg') 0 0;
 		background-repeat: no-repeat;
 		display: inline-block;
+	}
+	#home {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-left: 10px;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: 0px -40px;
+	}
+	#home:hover {
+		mix-blend-mode: exclusion;
+	}
+	#games {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -84px -40px;
+	}
+	#games:hover {
+		mix-blend-mode: exclusion;
+	}
+	#sketches {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		margin-right: 5px;
+		filter: invert(100);
+		background-position: -111px -40px;
+	}
+	#sketches:hover {
+		mix-blend-mode: exclusion;
+	}
+	#photography {
+		width: 30px;
+        display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -57px -40px;
+	}
+	#photography:hover {
+		mix-blend-mode: exclusion;
 	}
 	#instagram {
 		width: 30px;
@@ -675,11 +1035,21 @@ html {
 	}
 	#instagram:hover {
 		mix-blend-mode: exclusion;
-}
+	}
+	#email {
+		width: 30px;
+		display: block; /* can use inline-block instead of block */
+		height: 35px;
+		mix-blend-mode: lighten;
+		filter: invert(100);
+		background-position: -29px -40px;
+	}
+	#email:hover {
+		mix-blend-mode: exclusion;
+	}
 	#facebook {
 		width: 30px;
-        display: block; /* can use inline-block instead of block */
-		margin-right: 0px;
+        display: inline block; /* can use inline-block instead of block */
 		height: 35px;
 		mix-blend-mode: lighten;
 		filter: invert(100);
