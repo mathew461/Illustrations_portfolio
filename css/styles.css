@@ -18,858 +18,60 @@
 }
 */
 
-/* Title Images */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 360px) {
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-		}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 22px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
+/*Index Page*/
+html {
+	background-color: #F0F0F0;
 }
-@media only screen and (min-width: 375px) and (max-height: 667px){
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 27vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-		}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 27vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 27vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 30px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
-}
-@media only screen and (min-width: 375px) and (min-height: 812px){
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 23vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-		}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 23vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 23vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 30px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
-}
-@media only screen and (min-width: 411px) and (max-height: 731px) {
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-		}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 30px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
-}
-@media only screen and (min-width: 411px) and (min-height: 823px) {
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 25vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-		}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 25vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 25vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 30px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
-}
-@media only screen and (min-width: 414px) {
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-		}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 28vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 30px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
-}
-@media only screen and (min-width: 768px) {
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 38vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 38vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 38vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: contain;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 66px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
-}
-/* Large devices (laptops/desktops) */
-@media only screen and (min-width: 1024px){
-	#sketchestitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 100vh;
-		align-items: center;
-		background-image: url(../links-and-images/sketches1.jpg);
-		background-size: cover;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	#photographytitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 100vh;
-		align-items: center;
-		background-image: url(../links-and-images/photography7.jpg);
-		background-size: cover;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}	
-	#environmenttitleimage{
-		display: flex;
-		justify-content: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		width: 100%;
-		height: 100vh;
-		align-items: center;
-		background-image: url(../links-and-images/environment10.jpg);
-		background-size: cover;
-		margin-bottom: 12px;
-		border-radius: 10px;
-	}
-	H1, h2, h3{
-		font-family: 'Roboto', sans-serif;
-		font-size: 66px;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		text-shadow: 3px 3px 10px #000;
-	}
+
+.lower_h2 {
+	padding-top: 150px;
+	margin: 0px;
+
 
 }
 
-/* Page Images */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 320px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 0;
-		width: 47%;
-		height: auto;
-		margin: 2px 2px 4px 2px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
+.lower_p {
+	padding: 10px 41px 0px 0px;
+	margin: 0px;
 
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
-@media only screen and (min-width: 360px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 1;
-		width: 40%;
-		height: auto;
-		margin: 2px 6px 6px 6px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
 
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
+
+
 }
-@media only screen and (min-width: 375px) and (max-height: 667px){
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 0;
-		width: 46%;
-		height: auto;
-		margin: 2px 0px 8px 0px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
+
+.display_pic {
+	border-radius: 525px; /* round edges */
+	display: inline-block;
+	float: left;
+	margin: 140px 20px;
+	width: 235px;
+	border: 1px solid black;
+	position: center;		
 }
-@media only screen and (min-width: 375px) and (min-height: 812px){
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 0;
-		width: 46%;
-		height: auto;
-		margin: 2px 1px 16px 1px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
-@media only screen and (min-width: 411px) and (max-height: 731px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 0;
-		width: 47%;
-		height: auto;
-		margin: 2px 2px 6px 2px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
-@media only screen and (min-width: 411px) and (min-height: 823px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 0;
-		width: 46%;
-		height: auto;
-		margin: 2px 2px 8px 2px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
-@media only screen and (min-width: 414px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-	    flex-grow: 0;
-		width: 46%;
-		height: auto;
-		margin: 2px 0px 15px 0px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
-@media only screen and (min-width: 768px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 0;
-		width: 48%;
-		height: auto;
-		margin: 2px 1px 18px 1px;
-		position: relative;
-		top: 0px;
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
-@media only screen and (min-width: 1024px) {
-	#container{
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-	.tilecontainer{
-		flex-grow: 1;
-		width: 28%; /* column gap*/
-		height: auto;		
-		margin: 12px 0; /* row Gap */
-		position: relative;
-		top: 0;
-		left: 0;	
-	}
-	.overlay{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #000000;
-		opacity: 0;
-		transition: all 1s;
-		border-radius: 10px; /* round edges */	
-	}
-	.tilecontainer:hover .overlay{
-		opacity: 0.5;
-	}
-	.overlayText{
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		text-align: center;
-		transition: all 1s;
-		color: white;
-		width: 100%;
-	}
-	.tilecontainer:hover .overlayText{
-		opacity: 1;
-	}
-	#container .tilecontainer:nth-child(2){
-		margin-left: 24px;
-		margin-right: 24px;
-	}
-	#container .tilecontainer:nth-child(5){
-		margin-left: 24px;
-		margin-right: 24px;
-	}
-	#container img{
-		display: block;
-		max-width: 100%;
-		height: auto;
-		border-radius: 10px; /* round edges */	
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 @media only screen and (max-width: 360px) {
@@ -894,6 +96,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -961,6 +164,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1028,6 +232,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1095,6 +300,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1162,6 +368,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1229,6 +436,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1296,6 +504,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1363,6 +572,7 @@
 		bottom: 0%;
 		position: sticky;
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
@@ -1429,8 +639,9 @@
 		overflow: hidden;
 		width:100%;
 		bottom: 0%;
-		position: sticky; 
+		position: fixed; 
 		line-height: 35px;
+		left: 0px;
 	}
 	footer li {
 		display: inline;
