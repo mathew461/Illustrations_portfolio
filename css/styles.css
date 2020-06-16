@@ -986,7 +986,7 @@ html {
 		overflow: hidden;
 		width:100%;
 		bottom: 0%;
-		position: fixed; 
+		position: inherit; 
 		line-height: 35px;
 		left: 0px;			
 	}
