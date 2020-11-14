@@ -4,9 +4,8 @@
 	display: grid;
 	grid-template-columns: repeat(3, 300px);
 	justify-content: center;
-	align-content: center;
 	grid-gap: 10px;
-	height: 80vh;
+	height: 80vh; 
 }
 
 .grid img {
@@ -45,9 +44,9 @@
 }
 body {
 	margin: 0;
-}
-header {
-	margin-bottom: 200px;
+	margin-bottom: 100px;
+	min-height: 400px;
+	clear: both;
 }
 
 /*About Page Layout*/
@@ -81,18 +80,13 @@ html {
 /* Footer */
 
 @media only screen and (min-width: 1024px) {
-	footer {
-		
+	footer {		
 		background-color: #990f3d;
 		color: #FFFFFF;
 		overflow: hidden;
-		position: static;
-		left: 0;
-		margin-top: 268px;
-		bottom: -0%;
+		position: fixed;
+		bottom: 0;
 		width: 100%;
-			
-
 	}
 	.left {
 		float:left;
