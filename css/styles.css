@@ -1,5 +1,56 @@
 
-/*Index Page*/
+/*Grid Layout and Lightbox functionality */
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	height: 80vh;
+}
+
+.grid img {
+
+	flex-grow: 0;
+	width: 100%;
+	height: auto;
+	margin: 2px 2px 4px 2px;
+	position: static;
+	border-radius: 10px; /* round edges */	
+	cursor: pointer;
+}
+
+#lightbox {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	display: none;
+}
+
+#lightbox.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	padding: 4px;
+	background-color: black;
+	border: 2px solid white;	
+}
+body {
+	margin: 0;
+}
+header {
+	margin-bottom: 200px;
+}
+
+/*About Page Layout*/
 html {
 	background-color: #fff1e5;
 }
@@ -10,7 +61,6 @@ html {
 
 .lower_h2 {
 	padding-top: 31px;
-
 }
 
 .lower_p {
@@ -28,9 +78,6 @@ html {
 	position: center;		
 }
 
-
-
-
 /* Footer */
 
 @media only screen and (min-width: 1024px) {
@@ -39,12 +86,11 @@ html {
 		background-color: #990f3d;
 		color: #FFFFFF;
 		overflow: hidden;
-		width:100%;
-		position: fixed;
+		position: static;
 		left: 0;
-		bottom: 0;
+		margin-top: 268px;
+		bottom: -0%;
 		width: 100%;
-		text-align: center;
 			
 
 	}
@@ -78,21 +124,6 @@ html {
 	#home:active {
 		opacity: 50%;
 	}
-	#games {
-		width: 30px;
-        display: block; /* can use inline-block instead of block */
-		height: 35px;
-		mix-blend-mode: lighten;
-		margin-right: 5px;
-		filter: invert(100);
-		background-position: -84px -40px;
-	}
-	#games:hover {
-		mix-blend-mode: exclusion;
-	}
-	#games:active {
-		opacity: 50%;
-	}
 	#sketches {
 		width: 30px;
         display: block; /* can use inline-block instead of block */
@@ -106,20 +137,6 @@ html {
 		mix-blend-mode: exclusion;
 	}
 	#sketches:active {
-		opacity: 50%;
-	}
-	#photography {
-		width: 30px;
-        display: block; /* can use inline-block instead of block */
-		height: 35px;
-		mix-blend-mode: lighten;
-		filter: invert(100);
-		background-position: -57px -40px;
-	}
-	#photography:hover {
-		mix-blend-mode: exclusion;
-	}
-	#photography:active {
 		opacity: 50%;
 	}
 	#facebook {
