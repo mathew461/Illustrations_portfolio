@@ -1,3 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+.copyright {
+	text-align: center;
+	margin: 0;
+	vertical-align: middle;
+	padding-top: 10;
+}
 
 /*Grid Layout and Lightbox functionality */
 .grid {
@@ -6,11 +16,16 @@
 	justify-content: center;
 	grid-gap: 10px;
 	height: 80vh; 
+	margin-bottom: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
 }
 
 .grid img {
 
 	flex-grow: 0;
+	border: dashed #990f3d;
 	width: 100%;
 	height: auto;
 	margin: 2px 2px 4px 2px;
@@ -39,8 +54,6 @@
 	max-width: 90%;
 	max-height: 80%;
 	padding: 4px;
-	background-color: black;
-	border: 2px solid white;	
 }
 body {
 	margin: 0;
@@ -80,13 +93,18 @@ html {
 /* Footer */
 
 @media only screen and (min-width: 1024px) {
-	footer {		
+	nav {
+		vertical-align: middle;
+	}
+	footer {	
+		vertical-align: middle;	
 		background-color: #990f3d;
 		color: #FFFFFF;
 		overflow: hidden;
 		position: fixed;
 		bottom: 0;
 		width: 100%;
+		box-sizing: border-box;
 	}
 	.left {
 		float:left;
