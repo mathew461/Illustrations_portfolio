@@ -3,15 +3,20 @@
 	<head>
 		<Title>About Page</title>
 		<meta charset='UTF-8'/>
-		<meta content="width=device-width, initial-scale=1" 
-		name="viewport"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport"/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel = "stylesheet" href = "css/reset" type = "text/css" media = "all"/>
+
 		<link rel = "stylesheet" href = "css/styles.css" type = "text/css" media = "all"/>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+		<script defer src = "script.js"></script>
 	</head>
 	<body>
+		<div class="backdrop"></div>
 		<header>
+			<button class="toggle-button">
+				<span class="toggle-button__bar"></span>
+				<span class="toggle-button__bar"></span>
+				<span class="toggle-button__bar"></span>
+			</button>			
 			<img class="logo" src="links-and-images/logo.png">
 		</header>
 		<h1></h1>
@@ -41,6 +46,21 @@
 				<a id = "instagram" href = "https://www.instagram.com/rebellious.gnome/" class = "right"></a>
 				<a id = "email" href = "gmail.com" class = "right"></a>
 				<a id = "facebook" href = "https://www.facebook.com/The_Rebelious_Gnome-151680482257219/" class = "right"></a>	
+				<p class="copyright">Created by Mathew Wrigley, © 2019</p>
+			</nav>
+			<!--Experimental Mobile Nav -->
+			<nav class="mobile-nav">
+				<ul class="mobile-nav__items">
+					<li class="mobile-nav__item">
+						<a href="packages/index.html">Packages</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="customers/index.html">Customers</a>
+					</li>
+					<li class="mobile-nav__item mobile-nav__item--cta">
+						<a href="start-hosting/index.html">Start Hosting</a>
+					</li>
+				</ul>
 			</nav>
 		</footer>
 	</body>

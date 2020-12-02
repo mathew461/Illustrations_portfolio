@@ -1,3 +1,25 @@
+let toggleButton = document.querySelector('.toggle-button');
+let mobileNav = document.querySelector('.mobile-nav');
+let backdrop = document.querySelector(".backdrop");
+
+// Mobile Nav //
+backdrop.addEventListener("click", function() {
+    mobileNav.style.display = 'none';
+    closeNav();
+});
+
+function closeNav() {
+    backdrop.style.display = "none";
+    mobileNav.style.display = "none";
+}
+
+toggleButton.addEventListener('click', function() {
+    mobileNav.style.display = 'block';
+    backdrop.style.display = 'block';
+});
+
+
+//Lightbox //
 const lightbox = document.createElement('div')
 lightbox.id = 'lightbox'
 document.body.appendChild(lightbox)
