@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+			<!DOCTYPE html>
 <html lang = "en">
 	<head>
 		<Title>Index Page</title>
@@ -11,8 +11,21 @@
 		<script defer src = "script.js"></script>
 	</head>
 	<body>
-		<div class="backdrop"></div>
+		<div class="backdrop"></div> <!--Creates a backdrop for the Mobile Nav-->
 		<header>
+			<nav>
+				<!--navigational buttons-->
+				<ul class = "right header_nav">
+					<li class = "header_nav__list">
+						<a class = "header_nav__button" href="/index.html">Gallery</a>
+					</li>
+					<li class = "header_nav__list">
+						<a class = "header_nav__button" href="/about.html">About Me</a>
+					</li>
+					<li class="header_nav__list mobile-nav__item--cta">
+						<a class = "header_nav__button" href="/contact.html">Contact Us</a>
+					</li>
+			</nav>
 			<button class="toggle-button">
 				<span class="toggle-button__bar"></span>
 				<span class="toggle-button__bar"></span>
@@ -31,29 +44,31 @@
 		</div>
 		<footer>
 			<nav>
-				<!--navigational buttons-->
-				<a id = "home" href = "index.html" class = "left"></a>
-				<a id = "sketches" href = "about.html" class = "left"></a>
-				<!--Social Media Buttons --> 
-				<a id = "instagram" href = "https://www.instagram.com/rebellious.gnome/" class = "right"></a>
-				<a id = "email" href = "gmail.com" class = "right"></a>
-				<a id = "facebook" href = "https://www.facebook.com/The_Rebelious_Gnome-151680482257219/" class = "right"></a>	
 				<p class="copyright">Created by Mathew Wrigley, © 2019</p>
 			</nav>
 			<!--Experimental Mobile Nav -->
 			<nav class="mobile-nav">
 				<ul class="mobile-nav__items">
 					<li class="mobile-nav__item">
-						<a href="packages/index.html">Packages</a>
+						<a href="/index.html">Gallery</a>
 					</li>
 					<li class="mobile-nav__item">
-						<a href="customers/index.html">Customers</a>
+						<a href="/about.html">About Me</a>
 					</li>
 					<li class="mobile-nav__item mobile-nav__item--cta">
-						<a href="start-hosting/index.html">Start Hosting</a>
+						<a href="/contact.html">Contact Us</a>
 					</li>
 				</ul>
 			</nav>
+						<!--Old Footer Nav Code -->
+			<!--<nav>
+				<a id = "home" href = "index.html" class = "left"></a>
+				<a id = "sketches" href = "about.html" class = "left"></a> 
+				<a id = "instagram" href = "https://www.instagram.com/rebellious.gnome/" class = "right"></a>
+				<a id = "email" href = "gmail.com" class = "right"></a>
+				<a id = "facebook" href = "https://www.facebook.com/The_Rebelious_Gnome-151680482257219/" class = "right"></a>	
+				<p class="copyright">Created by Mathew Wrigley, © 2019</p>
+			</nav> -->
 		</footer>
 	</body>
 </html>

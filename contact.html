@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<Title>Contact Us Page</title>
+		<meta charset='UTF-8'/>
+		<meta content="width=device-width, initial-scale=1" name="viewport"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel = "stylesheet" href = "css/styles.css" type = "text/css" media = "all"/>
+		<script defer src = "script.js"></script>
+	</head>
+	<body>
+		<div class="backdrop"></div> <!--Creates a backdrop for the Mobile Nav-->
+		<header>
+			<nav>
+				<!--navigational buttons-->
+				<ul class = "right header_nav">
+					<li class = "header_nav__list">
+						<a class = "header_nav__button" href="/index.html">Gallery</a>
+					</li>
+					<li class = "header_nav__list">
+						<a class = "header_nav__button" href="/about.html">About Me</a>
+					</li>
+					<li class="header_nav__list mobile-nav__item--cta">
+						<a class = "header_nav__button" href="/contact.html">Contact Us</a>
+					</li>
+			</nav>
+			<button class="toggle-button">
+				<span class="toggle-button__bar"></span>
+				<span class="toggle-button__bar"></span>
+				<span class="toggle-button__bar"></span>
+			</button>			
+			<img class="logo" src="links-and-images/logo.png">
+		</header>
+        <div class="container">
+            <form id="contact-form" action="contact-form-handler.php" method=”POST”> 
+				<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+				<br>
+				<input name="email" type="email" class="form-control" placeholder="Your email" required>
+				<br>
+				<textarea name="message" class="form-control" placeholder="message" row="4" required></textarea>
+				<br>
+				<input type="submit" class="form-control submit" value="SEND MESSAGE"> 
+            </form>
+          </div>
+		<footer>
+			<nav>
+				<p class="copyright">Created by Mathew Wrigley, © 2020 You are not allowed to use these images without written permission. </p>
+			</nav>
+			<!--Experimental Mobile Nav -->
+			<nav class="mobile-nav">
+				<ul class="mobile-nav__items">
+					<li class="mobile-nav__item">
+						<a href="/index.html">Gallery</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="/about.html">About Me</a>
+					</li>
+					<li class="mobile-nav__item mobile-nav__item--cta">
+						<a href="/contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
