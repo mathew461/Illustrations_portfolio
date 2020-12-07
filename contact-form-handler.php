@@ -1,9 +1,9 @@
 <?php
-    $name = $_Post['name'];
+    $name = $_POST['name'];
     $visitor_email = $_Post['email'];
     $message = $_POST['message']; 
 
-    $email_from = 'mathew461@gmail.com';
+    $email_from = 'mathew461@googlemail.com';
 
     $email_subject = "New Form Submission";
 
@@ -15,7 +15,7 @@
 
     $headers = "From $email_from \r\n";
 
-    $headers = "Reply-to: $visitor_email \r\n";
+    $headers .= "Reply-To: $visitor_email \r\n";
 
     mail($to,$email_subject,$email_body,$headers);
 
