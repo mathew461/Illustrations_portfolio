@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	background-color: #fff1e5;
+	height: 100vh;
 }
 
 .open {
@@ -21,8 +22,9 @@ body {
 	height: 100vh;
 	background: rgba(0, 0, 0, 0.5);
 }
+/* Toggle Navigation button */
 .toggle-button {
-	width: 3rem;
+	width: 2rem;
 	background: transparent;
 	border: none;
 	cursor: pointer;
@@ -38,8 +40,17 @@ body {
 	height: 0.2rem;
 	background: #990f3d;
 	display: block;
-	margin: 0.6rem 0;
-} 
+	margin: 0.2rem 0;
+}
+@media (min-width: 40rem) {
+	.toggle-button {
+		width: 3rem;
+	}
+	.toggle-button__bar {
+		margin: 0.6rem 0;
+	}
+}
+/* Toggle Navigation screen */
 .mobile-nav__item a {
 	text-decoration: none;
 	color: #0e4f1f;
@@ -79,44 +90,60 @@ body {
 	padding: 0;
 	text-align: center;
 } 
-  .mobile-nav__item {
+.mobile-nav__item {
 	margin: 1rem 0;
 } 
 .mobile-nav__item a {
 	font-size: 1.5rem;
 }
-  
-/* Logo Heading */
-.logo {
-	width: 18vw;
-	vertical-align: middle;
 
+/* Logo Heading */
+header {
+	padding-top: 0.5rem;
+}
+
+.logo {
+	width: 6.5rem;
+	vertical-align: middle;
+}
+
+@media (min-width: 40rem) {
+	.logo {
+		width: 15rem;
+	}
 }
 
 /* Header Nav */
-
 .header_nav__list {
 	display: inline-flex;
-	padding: 10px;
+	padding: 0rem 0.3rem 0rem 0.3rem;
 	cursor: pointer;
 }
-
 .header_nav {
 	padding: 0;
-	margin: 1rem 0rem 0rem 0rem;
+	margin: 0rem;
 }
-
 .header_nav__button {
 	list-style-type: none;
 	text-decoration: none;
 	vertical-align: middle;
 	color: black;
+	font-size: 0.5rem;
 }
-
 .header_nav__button:hover {
 	text-decoration: underline;
 	color: #990f3d;
 	font-weight: bolder;
+}
+
+@media (min-width: 40rem) {
+	.header_nav__list {
+		padding: 0.7rem;
+	}
+
+	.header_nav__button {
+		font-size: 1rem;		
+	}
 }
 
 
@@ -227,10 +254,9 @@ footer {
 	vertical-align: middle;	
 	background-color: #990f3d;
 	color: #FFFFFF;
-	overflow: hidden;
-	bottom: 100%;
+	bottom: 0;
 	width: 100vw;
-	box-sizing: border-box;
+	position: fixed;
 }
 .left {
 	float:left;
