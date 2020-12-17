@@ -146,7 +146,6 @@ header {
 	}
 }
 
-
 /*Grid Layout and Lightbox functionality */
 .grid {
 	display: grid;
@@ -162,7 +161,6 @@ header {
 		grid-template-columns: repeat(3, 20%);	
 	}
 }
-
 
 .grid img {
 	border: dashed #990f3d;
