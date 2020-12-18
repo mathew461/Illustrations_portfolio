@@ -8,6 +8,10 @@ body {
 	font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+    color: black
+}
+
 /* Side Navigation */
 .backdrop {
 	position: fixed;
@@ -53,6 +57,13 @@ body {
 	font-weight: bold;
 	padding: 0.2rem 0;
 }
+
+.mobile-nav__item a:hover {
+text-decoration: underline;
+color: #990f3d;
+font-weight: bolder;
+}
+
 .mobile-nav__item--cta a {
 	color: white;
 	background: #990f3d;
