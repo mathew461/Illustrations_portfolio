@@ -4,14 +4,10 @@
 }
 body {
 	margin: 0;
-	background-color: #fff1e5
-;
-	height: 100vh;
+	background-color: #fff1e5;
+	font-family: 'Times New Roman', Times, serif;
 }
 
-.open {
-	display: block;
-}
 /* Side Navigation */
 .backdrop {
 	position: fixed;
@@ -54,7 +50,6 @@ body {
 /* Toggle Navigation screen */
 .mobile-nav__item a {
 	text-decoration: none;
-	color: #0e4f1f;
 	font-weight: bold;
 	padding: 0.2rem 0;
 }
@@ -102,7 +97,6 @@ body {
 header {
 	padding-top: 0.5rem;
 }
-
 .logo {
 	width: 6.5rem;
 	vertical-align: middle;
@@ -136,7 +130,6 @@ header {
 	color: #990f3d;
 	font-weight: bolder;
 }
-
 @media (min-width: 40rem) {
 	.header_nav__list {
 		padding: 0.7rem;
@@ -162,7 +155,6 @@ header {
 		grid-template-columns: repeat(3, 20%);	
 	}
 }
-
 .grid img {
 	border: dashed #990f3d;
 	width: 100%; /* leave as % otherwise breaks */
@@ -190,60 +182,88 @@ header {
 	padding: 4px;
 }
 
-
-
-
-
-
-
-
 /*About Page Layout*/
+.centre {
+	margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+}
 .lower_h2 {
-	padding-top: 2rem;
 	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: bold;
+	color: #990f3d;
+	text-align: center;
+	margin: 0.5rem;
 }
 .lower_p {
-	padding: 0.1rem;
+	padding: 0.4rem;
 	margin: 0;
 	line-height: 1.5;
 	font-size: 1rem;
-	width: 80vw;
+	margin-left: auto;
+    margin-right: auto;
+	width: 17em;
 }
 .display_pic {
 	border-radius: 32.8125rem; /* round edges */
-	float: left;
-	margin: 3.25rem 3rem 0rem 1rem;
-	width: 14.6875rem;
+	width: 9rem;
 	border: 1px solid black;
-	position: center;		
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (min-width: 40rem) {
+	.centre {
+		width: 37em;
+	}
+	.lower_p {
+		font-size: 1rem;
+		width: 37em;
+		padding: 0.4rem;
+	}	
+	.display_pic {
+		width: 14rem;
+	}
 }
 
-
-
-
 /* Contact Us Form */
-
 form {
-	margin-top: 50px;
+	margin-top: 7rem;
 	text-align: center;
 	transition: all 4s ease-in-out;
 }
-
 .form-control {
-	width: 600px;
+	width: 15.265rem;
 	background: transparent;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid gray;
 	color: #990f3d;
-	font-size: 16px;
-	margin-bottom: 16px;
+	font-size: 1rem;
+	margin-bottom: 1rem;
 }
-
+.form-control__1 {
+	width: 15.265rem;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #990f3d;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+@media (min-width: 40rem) {
+	.form-control {
+		width: 37.5rem;
+	}
+	.form-control__1 {
+		width: 37.265rem;
+	}
+}
 input {
-	height: 45px;
+	height: 2.8125;
 }
-
 form .submit {
 	background: #990f3d;
 	border-color: transparent;
@@ -255,7 +275,6 @@ form .submit {
 	margin-top: 20px;
 	border-radius: 8px;
 }
-
 form .submit:hover {
 	background-color: #FFFFFF;
 	cursor: pointer;
@@ -284,4 +303,16 @@ footer {
 	margin: 0;
 	vertical-align: middle;
 	padding: 0.225rem 0;
+	font-size: 0.5rem;
+}
+.bottom {
+	margin-bottom: 1rem;
+}
+@media (min-width: 40rem) {
+	.copyright {
+		font-size: 1rem;
+	}
+	.bottom {
+		margin-bottom: 2rem;
+	}
 }
