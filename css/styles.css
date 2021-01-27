@@ -134,8 +134,8 @@ header {
 	grid-template-columns: repeat(2, 40%);
 	justify-content: center;
 	grid-gap: 0.625rem;
-	margin: auto;
-	margin-bottom: 1rem;
+	row-gap: 0.625rem;
+	margin: 1rem;
 	text-align: center;
 }
 .grid img {
@@ -144,6 +144,9 @@ header {
 	height: auto;
 	border-radius: 0.7rem; /* round edges */	
 	cursor: pointer;
+}
+hr {
+	margin: 2rem 0rem 2rem 0rem;
 }
 #lightbox {
 	position: fixed;
